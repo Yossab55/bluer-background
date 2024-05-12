@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+
+}
+body {
+  margin: 0;
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+  height: 99vh;
+  width: 100VW;
+  transition: 300ms;
+}
+.percent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+}
